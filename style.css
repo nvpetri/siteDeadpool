@@ -83,55 +83,31 @@ p {
     background: linear-gradient (to right,rgba(255, 255, 255, 0.5), white url('background-image.jpg'));
     background-blend-mode: overlay;
   }
-  .videos {
-    margin-top: 30px;
+  
+  .video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px -20px;
   }
   
-@media only screen and (min-width: 1200px) {
-
+  .video-container > div {
+    width: calc(33.33% - 20px);
+    margin-right: 2px;
+    margin-bottom: 20px;
   }
   
-  
-  @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    
+  .video-container > div > iframe {
+    width: 100%;
+    height: 100%;
   }
-  
-  
-  @media only screen and (max-width: 767px) {
-    
-  }
-  
-@media only screen and (min-width: 1200px) {
-    .videos {
-      display: flex;
-      justify-content: space-between;
-    }
-    .videos iframe {
-      width: 280px;
-      height: 155px;
-    }
+  .redes {
+    width: 140px; 
+    position: absolute;
+    left: 1270px;
+    top: 200px;
   }
   
   
-  @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .videos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .videos iframe {
-      width: 40%;
-      height: 200px;
-      margin: 10px;
-    }
-  }
-  
- 
-  @media only screen and (max-width: 767px) {
-    .videos iframe {
-      width: 100%;
-      height: 200px;
-      margin-bottom: 20px;
-    }
-  }
   
