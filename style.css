@@ -113,9 +113,11 @@ p {
     width: 90%;
     height: 90%;
   }
-  .redes {
-    width: 10%; 
+  .icones{
+    margin-left: 100px;
+    display: grid;
+    align-items: right;
     position: absolute;
-    left: 95%;
-    top: 30%;
-  }
+    top: 40%;
+    right: -20%;
+}
