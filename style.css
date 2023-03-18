@@ -24,13 +24,46 @@ body {
 
 main {
     width: 50%;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
+    display: grid;
+    flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 36%;
     left: 6%;
     z-index: 1;
+}
+.youtube-logo {
+    position: fixed;
+    top: 32%;
+    right: -2%;
+    width: 12%;
+    padding: 10px;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.instagram {
+    position: fixed;
+    top: 42%;
+    right: 0;
+    width: 10%;
+    padding: 10px;
+}
+
+.twitter {
+    position: fixed;
+    top: 52%;
+    right: 0;
+    width: 10%;
+    padding: 10px;
+}
+
+.facebook {
+    position: fixed;
+    top: 62%;
+    right: -3%;
+    width: 14%;
+    padding: -5%;
 }
 
 img {
@@ -103,6 +136,7 @@ p {
   }
   
   .video-container > div {
+    margin-top: 110%;
     width: 30%;
     margin-left: 3%;
   }
